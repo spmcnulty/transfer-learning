@@ -1,2 +1,2 @@
 # transfer-learning
-A collection of data, trying experiments, refining data, refining experiments, etc. for transfer learning
+A collection of data, code, experiments, results, and writeups for Transfer Learning
