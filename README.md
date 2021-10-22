@@ -22,6 +22,6 @@ python3 binary-to-image-test.py
 
 ### Image-TL-experiment.py
 We tested many different ML and Deep Learning packages. We were looking for one that could take previous models and have specifications on how to retrain - specifically, freezing certain weights and layers and allowing fine-tuning on other layers. This file presents the standard file we will use for running our Image representations. We can transfer from Image databases and we can transfer from Malware detection to vulnerability code.
-'''
+```
 python3 Image-TL-experiment.py
-'''
+```
