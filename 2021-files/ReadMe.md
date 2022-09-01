@@ -3,3 +3,22 @@ This is where the main control flow graph experiments are run, though the file h
 ```
 python3 -O angr-test.py
 ```
+
+### ember-data-test.py
+NLP style experiments on the ember dataset, since the dataset is stripped binaries they're not exactly what we have as data on Redshift, however we can get similar things out of binaries using angr. The main objective here was to somewhat recreate the @Disco paper. Conclusion: It would be better to have @Disco to ensure correctness as the output
+seems quite different.
+```
+python3 ember-data-test.py
+```
+
+### binary-to-image-test.py
+Using [this](https://dl.acm.org/doi/pdf/10.1145/2016904.2016908) paper this method is recreated to turn binaries into a black and white picture representation. mal-net goes a step furthur and splits the header, sectional, and main parts of a binary into different colors r,b,g for each different part.
+```
+python3 binary-to-image-test.py
+```
+
+### Image-TL-experiment.py
+We tested many different ML and Deep Learning packages. We were looking for one that could take previous models and have specifications on how to retrain - specifically, freezing certain weights and layers and allowing fine-tuning on other layers. This file presents the standard file we will use for running our Image representations. We can transfer from Image databases and we can transfer from Malware detection to vulnerability code.
+```
+python3 Image-TL-experiment.py
+```
