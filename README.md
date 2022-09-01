@@ -10,8 +10,8 @@ The data used for Transfer Learning experiments.
 ### Results
 Results from DHS study
 
-### Scripts
+### Dataset-Generation-Scripts
 Scripts for converting binaries to vectors for Machine Learning experiments
 
-### Scripts
+### Deliv_Scripts
 Scripts for running Machine Learning experiments
